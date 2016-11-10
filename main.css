@@ -1,0 +1,49 @@
+#social-buttons {
+	color: white;
+}
+.btn-twitter { 
+	background-color: #00acee;
+	border-color: #009ad5;
+}
+.btn-facebook {
+	background-color: #4868ac;
+	 border-color: #314776; 
+}
+.btn-pinterest {
+	 background-color: #b62f26;
+	 border-color: #b62f26; 
+}
+
+.carousel { 
+	min-height: 600px;
+	background-image: url('images/sky.png.jpg'); 
+	background-size: cover; 
+	background-attachment: fixed; 
+	font-family: 'Poiret One', cursive;
+	
+}
+.container-fluid {
+	font-family: 'Poiret One', cursive;
+}
+.row {
+	text-align: center;
+	font-family:'Baloo Paaji', cursive;
+}
+h1 {
+	font-size: 150px;
+	color: #ddd;
+}
+form {
+	color: #ddd;
+	text-align: center;
+}
+
+
+#mission {
+	background-color: rgba(32, 35, 41, 0.9);
+	color: #ddd;
+	text-align: center;
+}
+#buzz {
+	background-color: white;
+}
