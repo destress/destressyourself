@@ -19,6 +19,12 @@
       width: 60%;
       margin: auto;
   }
+  .op{
+    opacity: 0.75;
+  }
+  .col{
+    color: #000080;
+  }
   </style>
 </head>
 
@@ -43,7 +49,7 @@
         <h2>Hurrah! You made it to our site. You're one step closer to destressing yourself. So how much time have you given yourself?</h2>
         <p>I have...</p>
     
-
+<!--adding carousel-->
 <div class="container">
    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -54,33 +60,34 @@
         <!--li data-target="#myCarousel" data-slide-to="3"></li-->
       </ol>
 
+    <!--adding first picture-->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-          <img src="images/yoga.png.jpg" alt="Chania" class='img-circle center-block' height="200" width="250">
-           <blockquote>
-              <h3>...five minutes!</h3>
-              <p>Settle into your favourite yoga posture. Haven't discovered your fave pose? Explore your options <a href="http://www.yogajournal.com/category/yogapedia/">here</a>.</p>
-            </blockquote>
+          <img src="images/yoga.png.jpg" alt="Chania" class='img-circle center-block op' height="80" width="250">
+            <div class="carousel-caption">
+                <h1 class="col">...five minutes!</h1>
+                <h2 class="col">Settle into your favourite yoga posture. Haven't discovered your fave pose? Explore your options <a href="http://www.yogajournal.com/category/yogapedia/">here</a>.</h2>
+            </div>
       </div>
     
-
+      <!--adding 2nd picture-->
       <div class="item ">
-          <img src='images/autumn-walk.png.jpg' alt="Chania" class='img-circle center-block' height="200" width="250"> 
-            <blockquote>
-                <h3>...twenty minutes!</h3>
-                  <p>Go on a walk. Take a look at <a href="http://well.blogs.nytimes.com/2015/07/22/how-nature-changes-the-brain/?_r=0">this article</a> and thank us later :)
-                </p>
-            </blockquote>
+          <img src='images/autumn-walk.png.jpg' alt="Chania" class='img-circle center-block op' height="80" width="250"> 
+            <div class="carousel-caption">
+                <h1 class="col">...twenty minutes!</h1>
+                  <h2 class="col">Go on a walk. Take a look at <a href="http://well.blogs.nytimes.com/2015/07/22/how-nature-changes-the-brain/?_r=0">this article</a> and thank us later :)
+                </h2>
+            </div>
       </div>
 
-
-        <div class="item">
-            <img src='images/chat.png.jpg' alt="Chania" class='img-circle center-block' height="200" width="250">
-              <blockquote>
-                <h3>...an hour!</h3>
-                <p>Talk to someone. Make sure it's someone you know you trust and whose cares about your happiness.</p>
-              </blockquote>
-        </div>
+      <!--adding 3rd picture-->
+      <div class="item">
+            <img src='images/chat.png.jpg' alt="Chania" class='img-circle center-block op' height="80" width="250">
+              <div class="carousel-caption">
+                <h1 class="col">...an hour!</h1>
+                <h2 class="col">Talk to someone. Make sure it's someone you know you trust and whose cares about your happiness.</h2>
+              </div>
+      </div>
 
      </div>
 
