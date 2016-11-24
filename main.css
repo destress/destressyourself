@@ -16,7 +16,7 @@
 }
 
 .carousel { 
-	min-height: 600px;
+	min-height: 200px;
 	background-image: url('images/sky.png.jpg'); 
 	background-size: cover; 
 	background-attachment: fixed; 
@@ -53,3 +53,16 @@ navbar-fixed-top {
 #buzz {
 	background-color: white;
 }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+  .op{
+    opacity: 0.75;
+  }
+  .col{
+    color: #000080;
+  }
+  
+
