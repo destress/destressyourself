@@ -1,16 +1,12 @@
-#social-buttons {
-	color: white;
-	
-}
-.btn-twitter { 
+.fa fa-twitter { 
 	background-color: #00acee;
 	border-color: #009ad5;
 }
-.btn-facebook {
+.fa fa-facebook {
 	background-color: #4868ac;
 	 border-color: #314776; 
 }
-.btn-pinterest {
+.fa fa-instagram {
 	 background-color: #b62f26;
 	 border-color: #b62f26; 
 }
@@ -43,7 +39,9 @@ form {
 navbar-fixed-top {
 	background-color: #ddd; 
 }
-
+.useful links {
+	text-align: center;
+}
 
 #mission {
 	background-color: rgba(32, 35, 41, 0.9);
