@@ -1,14 +1,6 @@
-.fa fa-twitter { 
-	background-color: #00acee;
-	border-color: #009ad5;
-}
-.fa fa-facebook {
-	background-color: #4868ac;
-	 border-color: #314776; 
-}
-.fa fa-instagram {
-	 background-color: #b62f26;
-	 border-color: #b62f26; 
+.twitter-follow-button {
+	font-size: 40px;
+
 }
 
 .carousel { 
@@ -16,11 +8,8 @@
 	background-image: url('images/sky.png.jpg'); 
 	background-size: cover; 
 	background-attachment: fixed; 
-	font-family: 'Poiret One', cursive;
+	font-family: 'Montserrat', sans-serif;
 	
-}
-.container-fluid {
-	font-family: 'Poiret One', cursive;
 }
 
 .row {
@@ -28,9 +17,26 @@
 	font-family:'Baloo Paaji', cursive;
 }
 h1 {
-	font-size: 150px;
+	font-size: 130px;
 	color: #ddd;
 	padding-top: 100px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 35px;
+	color: rgb(255, 255, 102);
+	
+}
+p {
+	font-size: 25px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+.special {
+	font-size: 25px;
+	color: rgb(204, 0, 204);
 }
 form {
 	color: #ddd;
